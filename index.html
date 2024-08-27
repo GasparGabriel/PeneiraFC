@@ -1,105 +1,164 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peneiras de Futsal</title>
-    <link rel="shortcut icon" href="images/favicon-32x32.png">
-    <link rel="stylesheet" href="style.css">
+    <title>Corinthians</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#principal">Principal</a></li>
-                <li><a href="#fotos">Fotos</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#quem-somos">Quem Somos</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="titulo">
 
-    <main>
-        <img class="Logo" src="images/LogoPeneiraFC.png" alt="Logo do Site">
+        <img src="imagens/SCCP_escudo-150px.png" alt="Escudo Corinthians">
+        <h1 class="titulo" id="titulo">Site do Corinthians</h1>
+        <img src="imagens/SCCP_escudo-150px.png" alt="Escudo Corinthians">
+
+    </div>
+
+    <hr>
+    <br>
+    <br>
+
+    <h2>MENU</h2>
+    <div class="icons" id="icons">
+        <a href="#sobre" title="a1"><img src="imagens/botao-de-informacao.png"></a>
+        <a href="#estadio" title="a2"><img src="imagens/estadio.png"></a>
+        <a href="#trofeus" title="a3"><img src="imagens/trofeu.png"></a>
+        <a href="#hino" title="a4"><img src="imagens/reprodutor-de-musica.png"></a>
+        <a href="#sites" title="a5"><img src="imagens/local-na-rede-internet.png"></a>
+
+    </div>
+    <hr>
+    <br>
+    <br>
+
+    <h2 id="sobre">Sobre o Corinthians</h2>
+    <img src="imagens/SCCP_escudo-150px.png" alt="Escudo Corinthians">
+    <!-- Container principal do slider -->
+    <div class="slider">
+        <!-- Container que agrupa todos os slides -->
+        <div class="slides">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <img src="imagens/slide1.jpeg" alt="Banner 1">
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="imagens/slide2.jpeg" alt="Banner 2">
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="imagens/slide3.jpg" alt="Banner 3">
+            </div>
+        </div>
+    </div>
+
+    <p class="sobre1">O Corinthians é um time localizado no estado de São Paulo, <br>
+        no qual pratica o esporte chamado futebol, com uma das <br>
+        maiores torcidas do mundo, o clube tem uma das melhores <br>
+        infraestruturas do Brasil, na qual seus jogadores e <br>
+        torcedores desfrutam da melhor tecnologia para torcer <br>
+        e se exercitar.</p>
+
+    <br>
+    <br>
+    <hr>
+
+    <h2 class="estadio" id="estadio">Video Neo Quimica Arena (Estádio)</h2>
+    <div align=center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FeOMz-PIR28?si=ceKNu7h0lpW-l3Pg"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="container">
+        <!-- Cada div com a classe "card" será um card individual -->
+        <br>
+        <br>
+
+        <br>
+        <div class="card">
+            <img src="imagens/jogo1.jpeg" alt="">
+            <h2>Corinthians 6 x 1 São Paulo</h2>
+            <p>O time do Corinthians ja era campeão do Brasileirão <br>
+                daquele ano, por isso entrou para jogar contra o rival <br>
+                apenas com jogadores reservas, e mesmo assis, diante da <br>
+                sua torcida, fez 6x1 no São Paulo</p>
+        </div>
+        <div class="card">
+            <img src="imagens/jogo2.jpeg" alt="">
+            <h2>Corinthians 3 x 2 Palmeiras</h2>
+            <p>O Timão precisava vencer o jogo para afastar qualquer <br>
+                risco de perder o titulo para o rival, com isso o clima era <br>
+                de tensão, mas o Cotinhians conseguiu o grande resultado, <br>
+                se consagrando praticamente campeão brasileiro</p>
+        </div>
+        <div class="card">
+            <img src="imagens/jogo3].jpg" alt="">
+            <h2>Corinthians 2 x 0 Atletico MG</h2>
+            <p>Após perder por 2x0 fora de casa, o Timão precisava <br>
+                do resultado para se classificar na Copa do Brasil, <br>
+                e mais uma vez, diante da toricida, o time consegui o <br>
+                resultado, e se classificou nos penaltis.</p>
+        </div>
+        </div>
         <hr>
-        <section id="principal">
-            <h1>Principal</h1>
-            <h3>Principais Peneiras da Região</h3>
-            <p>1- Campinas Futebol Clube <br>
-                <br>
-                2- Red Bull Bragantino (em Bragança Paulista, próximo a Campinas) <br>
-                <br>
-                3 - Centro de Formação de Atletas (CFA) Campinas <br>
-                <br>
-                4 - Clube de Regatas do Flamengo - Campinas <br>
-                <br>
-                5 - Ponte preta <br>
-                <br>
-                6 - Escolinhas de Futebol locais <br>
-                <br>
-                7 - Guarani
-            </p>
-            <hr>
+        <br>
+        <br>
+
+
+        <h2 id="trofeus">Principais títulos do Corinthians</h2>
+        <div class="titulos">
+            <ul>
+                <img src="imagens/brasileirao.jpg" alt="" id="jogoimg">
+                <li>Brasileirao - 7x</li>
+                <img src="imagens/copabrasil.jpg" alt="">
+                <li>Copa do Brasil - 3x</li>
+                <img src="imagens/libertadores.webp" alt="">
+                <li>Libertadores - 1x</li>
+                <img src="imagens/mundialclubes.png" alt="">
+                <li>Mundial - 2x</li>
+                <img src="imagens/paulistao.jpg" alt="">
+                <li>Paulistão - 30x</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <h2 id="hino">Hino do Corinthians</h2>
+
+        <audio controls>
+            <source src="audios/hino-corinthians-cantado.mp3">
+        </audio>
+
+        <p class="sobrehino">Sobre: O 'Campeão dos Campeões' é o hino que embalou as maiores conquistas do Corinthians em toda sua
+            história.
             <br>
-        </section>
-        <section id="fotos">
-            <h1>Fotos</h1>
-            <img class="peneira" src="images/Peneira1.jpg" alt="Foto Peneira">
-            <img class="peneira" src="images/Peneira2.jpg" alt="Foto Peneira">
-            <img class="peneira" src="images/Peneira3.jpg" alt="Foto Peneira">
-            <img class="peneira" src="images/Peneira4.jpeg" alt="Foto Peneira">
+            Desde a oficialização da canção como hino oficial em 1953, o Timão ganhou vários títulos de primeiro
+            escalão
             <br>
+            como dois Mundiais de Clubes da Fifa, uma CONMEBOL Libertadores, uma Recopa Sul-Americana, sete
+            Brasileirões e
             <br>
-            <br>
-            <br>
-            <br>
-            <hr>
-        </section>
-        <section id="sobre">
-            <h1>Sobre</h1>
-            <p>Somos o seu portal para o mundo do futebol! Queremos te ajudar a realizar o sonho de se tornar um jogador
-                profissional. <br> Aqui, você encontra as melhores escolas de futebol de Campinas e região, com
-                informações completas sobre cada uma delas. <br> Além disso, te mantemos sempre atualizado sobre as
-                datas, horários e locais das peneiras, facilitando o seu acesso a essas oportunidades. <br> Conte
-                conosco para te guiar nesse caminho rumo ao sucesso! <br>
-                <br>
-                Quer aprimorar suas habilidades no futebol e conhecer novos amigos? No nosso site, você encontra tudo o
-                que precisa! <br> Facilitamos o seu acesso a escolas de futebol renomadas, com professores qualificados
-                e estrutura completa. <br> Além disso, te mantemos informado sobre as principais peneiras da região,
-                para que você nunca perca uma oportunidade de mostrar seu talento. <br> Junte-se a nós e dê um show
-                dentro de campo! <br>
-                <br>
-                Sonha em vestir a camisa do seu time do coração? Nós te ajudamos a dar o primeiro passo! <br> Somos um
-                site dedicado a conectar jovens talentos a escolas de futebol de alto nível. <br> Aqui, você encontra
-                todas as informações necessárias para participar de peneiras, treinar com os melhores profissionais e,
-                quem sabe, construir uma carreira brilhante no futebol. <br> A sua jornada começa aqui!  
-            </p>
-            <br>
-            <hr>
-            <br>
-        </section>
-        <footer class="rodape">
-            <section id="quem-somos">
-                <h1>Quem Somos</h1>
-                <h3>Nossas redes sociais:</h3>
-                <div class="redes">
-                    <img src="images/whatsapp.png" alt="whatsapp">
-                    <img src="images/facebook.png" alt="facebook">
-                    <img src="images/instagram.png" alt="instagram">
-                </div>
-                <hr>
-                <br>
-            </section>
+            três Copas do Brasil.
+        </p>
+        <br>
+        <br>
+
+        <h2 id="sites">Sites externos</h2>
+        <a href="https://www.corinthians.com.br/">SITE DO CORINTHIANS</a> <br>
+        <a href="https://www.corinthians.com.br/">INGRESSOS CORINTHIANS</a> <br>
+        <a href="https://www.fieltorcedor.com.br">SOCIO TORCEDOR DO CORINTHIANS</a> <br>
+        <br>
+        
+
+        <footer class="footer">
+            <a href="#titulo" title=""><img src="imagens/voltar2.png" a>
         </footer>
 
-    </main>
-
-    <footer>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
